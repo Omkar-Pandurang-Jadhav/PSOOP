@@ -1,3 +1,18 @@
+/*
+A certain chain of hotels needs to maintain details of all hotels it has across
+India.
+Each hotel has an ID, location, number of rooms(a 1D array of rooms of 3
+types: suite, deluxe, standard)
+eg, if a hotel has 20 suites, 40 deluxe rooms and 60 standard rooms, this array
+will be rooms[]={20,40,60}
+In the main class, create an array of hotels.
+Include the following methods in the Hotel class:
+static void listHotels(Hotel h[],String location)--> list hotel details in a given
+location
+static void listHotels(Hotel h[],int room_type)-->list Total number of rooms
+in each hotel of the given room type.
+
+*/
 import java.util.Scanner;
 
 class Hotel {
