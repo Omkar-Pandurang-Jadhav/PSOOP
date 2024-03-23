@@ -1,3 +1,13 @@
+/*
+Your swim school has two swimming instructors, Jeff and Anna. Their current
+schedules are shown below. An “X” denotes a one-hour time slot that is
+occupied with a lesson. Write a program with array(s) capable of storing the
+schedules. Create a main menu that allows the user to mark a time slot as
+busy or free for either instructor. Also, add an option to output the schedules to
+the screen. Next, add an option to output all time slots available for individual
+lessons (slots when at least one instructor is free). Finally, add an option to
+output all time slots available for group lessons (when both instructors are free)
+*/
 import java.util.Scanner;
 
 class Instructor {
