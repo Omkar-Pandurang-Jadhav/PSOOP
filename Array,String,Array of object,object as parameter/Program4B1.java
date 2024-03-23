@@ -1,3 +1,15 @@
+/*
+Create a class called ShoppingCart to represent the following scenario:
+In a mall, a conveyor belts holds “c” carts at a time. Each cart may contain
+variable number of items, items which are either Perishable or Non-perishable
+category items. Create a 3D array named as cart which stores the cost of
+items purchased.
+Hint: Use Ragged/Jagged Arrays
+For c=3, find out:
+a) Total cost of each cart.
+b) Find out all perishable items sold (on 3 carts).
+c) Find out the costliest non-perishable item sold
+*/
 import java.util.*;
 
 class Cart {
